@@ -22,7 +22,7 @@ let encrypt = crypto.encrypt('@arispati/src-crypto')
 // di92SjlPSnFab3JhclI2U0Q5K1k3SVFncTV4VTVzdDlkZTNZT09TV21Jcz0=
 
 // Decrypt
-let decrypt = crypto.decrypt(encrypted)
+let decrypt = crypto.decrypt(encrypt)
 // "@arispati/src-crypto"
 ```
 
